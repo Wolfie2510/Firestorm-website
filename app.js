@@ -13,9 +13,11 @@ function toggleMenu() {
 function resizeMainImage() {
   const screenWidth = window.innerWidth;
   if (screenWidth <= 768) {
-    mainImage.style.width = '300px'; // Adjust the value as needed
+    mainImage.style.width = '80%'; // Make it smaller but not too small
+    mainImage.style.maxWidth = '300px'; // Set a max width for smaller screens
   } else {
-    mainImage.style.width = '80%'; // Reset the width for larger screens
+    mainImage.style.width = '100%'; // Use full width for larger screens
+    mainImage.style.maxWidth = '600px'; // Set a max width for larger screens
   }
 }
 
