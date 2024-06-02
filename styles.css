@@ -30,8 +30,8 @@
 }
 
 #navbar__logo {
-  background-color: #ff8177;
-  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  background-color: #ff6b35;
+  background-image: linear-gradient(to top, #ff4500 0%, #ff8c00 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -46,6 +46,7 @@
 
 .fa-gem {
   margin-right: 0.5rem;
+  color: #ff4500;
 }
 
 .navbar__menu {
@@ -85,13 +86,13 @@
   border: none;
   outline: none;
   border-radius: 4px;
-  background: #f77062;
+  background: #ff6b35;
   color: #fff;
   margin-left: 1rem; /* Add margin to separate button from links */
 }
 
 .button:hover {
-  background: #4837ff;
+  background: #4054ff;
   transition: all 0.3s ease;
 }
 
@@ -221,8 +222,8 @@
 
 .main__content h1 {
   font-size: 4rem;
-  background-color: #ff8177;
-  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  background-color: #ff6b35;
+  background-image: linear-gradient(to top, #ff4500 0%, #ff8c00 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -232,8 +233,8 @@
 
 .main__content h2 {
   font-size: 4rem;
-  background-color: #ff8177;
-  background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
+  background-color: #ff6b35;
+  background-image: linear-gradient(to top, #ff4500 0%, #ff8c00 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -250,7 +251,7 @@
 
 .main__btn {
   font-size: 1rem;
-  background-image: linear-gradient(to top,#f77062 0%, #fe5196 100%);
+  background-image: linear-gradient(to top,#ff4500 0%, #ff8c00 100%);
   padding: 14px 32px; 
   border: none;
   border-radius: 4px;
@@ -276,7 +277,7 @@
   left: 0;
   width: 0;
   height: 100%;
-  background: #4837ff;
+  background: #4054ff;
   transition: all 0.35s;
   border-radius: 4px;
 }
@@ -367,9 +368,14 @@
 }
 
 .services h1{
-  background-color: #ff8177;
-  background-image: linear-gradient(to right, #ff8177 0%, 
-  #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%
+  background-color: #ff6b35;
+  background-image: linear-gradient(to right,
+  #ff6b35 0%, 
+  #ff7f50 0%, 
+  #ff8c00 21%, 
+  #ffa500 52%, 
+  #ff8c00 78%, 
+  #ff6b35 100%
   );
   
   background-size: 100%;
@@ -395,7 +401,7 @@
   background-image: linear-gradient(to bottom,
   rgba(0, 0, 0, 0) 0%, 
   rgba(17, 17, 17, 0.6) 100%),
-  url('/images/pic3.jpg');
+  url('/images/pic5.jpg');
   background-size: cover;
   position: relative;
   color: #fff;
@@ -549,4 +555,50 @@
   justify-content: space-between;
   align-items: center;
   width: 240px;
+}
+
+.social__logo {
+  color: #fff;
+  justify-self: flex-start;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.website__rights {
+  color: #fff;
+}
+
+@media screen and (max-width: 820px) {
+  .footer__links{
+    padding-top: 2rem;
+  }
+
+  #footer__logo {
+    margin-bottom: 2rem;
+  }
+
+  .website__rights{
+    margin-bottom: 2rem;
+  }
+
+  .footer__link--wrapper {
+    flex-direction: column;
+  }
+
+  .social__media--wrap {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer__link--items{
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+  }
 }
