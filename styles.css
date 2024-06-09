@@ -267,7 +267,7 @@ body::before {
   font-size: 1rem;
   background-image: linear-gradient(to top, #4B0082 0%, #0077BE 100%);
   padding: 14px 32px; 
-  border: 2px solid white;
+  border: 2px solid #fff;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
   border-radius: 4px;
   color: #fff;
