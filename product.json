@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "PS4 Controller",
+        "price": 800,
+        "image": "/images/controller1.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "Xbox controller",
+        "price": 1000,
+        "image": "/images/controller2.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "PS5 Controller",
+        "price": 1300,
+        "image": "/images/controller3.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "PS4 console",
+        "price": 4500,
+        "image": "/images/console1.jpeg"
+    },
+    {
+        "id": 5,
+        "name": "PS5 Console",
+        "price": 13000,
+        "image": "/images/console2.jpeg"
+    },
+    {
+        "id": 6,
+        "name": "Xbox Series X",
+        "price": 15000,
+        "image": "/images/console3.jpeg"
+    },
+    {
+        "id": 7,
+        "name": "Nintendo Switch",
+        "price": 8000,
+        "image": "/images/console4.jpeg"
+    },
+    {
+        "id": 8,
+        "name": "Steam Deck",
+        "price": 200,
+        "image": "/images/console5.jpeg"
+    },
+    {
+        "id": 9,
+        "name": "Razer Kraken lite",
+        "price": 800,
+        "image": "/images/headset1.jpeg"
+    },
+    {
+        "id": 10,
+        "name": "SteelSeries Arctis 7P",
+        "price": 2000,
+        "image": "/images/headset2.jpeg"
+    }
+]
