@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Firestorm | Leaderboard</title>
+    <link rel="stylesheet" href="/leaderboard/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<nav class="nav">
+    <div class="nav-menu" id="navMenu">
+        <ul>
+            <li><a href="/" class="link">Home</a></li>
+            <li><a href="/product page/index.html" class="link">Product</a></li>
+            <li><a href="/leaderboard/index.html" class="link">Leaderboard</a>
+        </ul>
+    </div>
+    <div class="nav-menu-btn">
+        <i class="bx bx-menu" onclick="myMenuFunction()"></i>
+    </div>
+</nav>
+
+<body>
+    <main class="table" id="customers_table">
+        <section class="table__header">
+            <h1>Firestorm</h1>
+            <div class="input-group">
+                <input type="search" placeholder="Search Data...">
+                <img src="/leaderboard/images/search.png" alt="">
+            </div>
+            <button onclick="addRow()">Add</button>
+        </section>
+        <section class="table__body">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Id <span class="icon-arrow">&UpArrow;</span></th>
+                        <th>Name <span class="icon-arrow">&UpArrow;</span></th>
+                        <th>Rank <span class="icon-arrow">&UpArrow;</span></th>
+                        <th>Score <span class="icon-arrow">&UpArrow;</span></th>
+                        <th>Action <span class="icon-arrow">&UpArrow;</span></th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                    <!-- Rows will be added dynamically -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <script src="/leaderboard/app.js"></script>
+    <script>
+        function myMenuFunction() {
+            var i = document.getElementById("navMenu");
+            if (i.className === "nav-menu") {
+                i.className += " responsive";
+            } else {
+                i.className = "nav-menu";
+            }
+        }
+    </script>
+</body>
+
+</html>
+  
